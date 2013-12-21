@@ -71,23 +71,23 @@ public class MainActivity extends Activity {
 		cards = new ArrayList<Card>();
 
 		levelCard = new Card(this);
-		levelCard.setInfo(R.string.info_bat_level);
+		levelCard.setFootnote(R.string.info_bat_level);
 		cards.add(levelCard);
 
 		healthCard = new Card(this);
-		healthCard.setInfo(R.string.info_bat_health);
+		healthCard.setFootnote(R.string.info_bat_health);
 		cards.add(healthCard);
 
 		statusCard = new Card(this);
-		statusCard.setInfo(R.string.info_bat_status);
+		statusCard.setFootnote(R.string.info_bat_status);
 		cards.add(statusCard);
 		
 		tempCard = new Card(this);
-		tempCard.setInfo(R.string.info_bat_temp);
+		tempCard.setFootnote(R.string.info_bat_temp);
 		cards.add(tempCard);
 		
 		voltCard = new Card(this);
-		voltCard.setInfo(R.string.info_bat_voltage);
+		voltCard.setFootnote(R.string.info_bat_voltage);
 		cards.add(voltCard);
 		
 		view = new CardScrollView(this);
